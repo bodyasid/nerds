@@ -4,11 +4,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   font-family: "Roboto", "Arial", sans-serif;
-}
-
-body {
-  background: #ffffff url("img/nerds-index.jpg") no-repeat 50% 3px;
-  background-size: 1200px auto;
+  background: #ffffff;
 }
 
 .clearfix::after {
@@ -17,6 +13,9 @@ body {
   clear: both;
 }
 
+.main-header {
+  background-color: #eeeeee;
+}
 .container {
   width: 880px;
   margin: 0 auto;
@@ -313,29 +312,41 @@ h3 {
   display: inline-block;
   vertical-align: middle;
   margin-left: 115px;
-  margin-bottom: 42px;
+  margin-bottom: 35px;
+  opacity: 0.2;
 }
 
 .fourth-block a:first-child {
   margin-left: 14px;
 }
 
-.background {
-  background: url("img/map.jpg") no-repeat center;
-  width: auto;
+.fourth-block a:hover,
+.fourth-block a:active {
+  opacity: 1.0;
+}
+
+.fifth-block {
+  position: relative;
+  background: #ffffff url("../img/map.jpg") no-repeat center;
+  width: 1200px;
   height: 416px;
   margin-top: 39px;
-  margin-bottom: 78px;
 }
 
 .contacts {
-  width: 250px;
-  min-height: 240px;
-  padding: 20px;
-  background-color: #efc84a;
+  position: absolute;
+  left: 160px;
+  top: 90px;
+  width: 210px;
+  padding: 26px 20px;
+  background-color: #ffffff;
 }
 
-
+.point {
+  position: absolute;
+  right: 130px;
+  top: 110px;
+}
 
 .btn4 {
   display: inline-block;
@@ -351,4 +362,73 @@ h3 {
   outline: none;
   cursor: pointer;
   margin-top: 13px;
+}
+
+.btn4:hover {
+  background-color: #d6494d;
+}
+
+.btn4:active {
+  background-color: #b63538;
+}
+
+.contacts h3 {
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.contacts p {
+  line-height: 20px;
+}
+
+.main-footer {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.footer-social {
+  float: left;
+  margin-right: 62px;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #e1e1e1 url("../img/sprite.png") no-repeat center;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 14px;
+  font-size: 0;
+  vertical-align: top;
+  text-decoration: none;
+}
+.social-btn:first-child {
+  margin-left: 0;
+}
+
+.social-btn:hover {
+  background-color: #fb565a;
+}
+
+.social-btn:active {
+  background-color: #d6494d;
+}
+
+.social-btn-vk {
+  background-position: -43px 23px;
+}
+
+.social-btn-fb {
+  background-position: 21px -27px;
+}
+
+.social-btn-inst {
+  background-position: -44px -27px;
+}
+
+.footer-lets p {
+  margin-top: 10px;
 }
