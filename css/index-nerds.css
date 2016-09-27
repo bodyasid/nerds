@@ -101,18 +101,14 @@ body {
   left: 0px;
   width: 20px;
   height: 20px;
-  background: transparent url("img/sprite.png") no-repeat;
+  background: transparent url("../img/sprite.png") no-repeat;
   opacity: 0.3;
 }
 
 .cart:hover::before {
-  background: transparent url("img/sprite.png") no-repeat;
+  background: transparent url("../img/sprite.png") no-repeat;
   background-position: -18px 0;
   opacity: 1.0;
-}
-
-.first-block {
-  min-height: 326px;
 }
 
 .learn-more {
@@ -157,12 +153,13 @@ h1 {
   height: 231px;
   float: right;
   margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .products-item {
   float: left;
   width: 240px;
-  margin: 75px 0 80px 80px;
+  margin: 80px 0 80px 80px;
 }
 
 .products-item:first-child {
@@ -303,12 +300,12 @@ h3 {
   margin-bottom: 23px;
 }
 
-.fourth-block {
+.third-block {
   height: 168px;
   margin-top: 42px;
 }
 
-.fourth-block a {
+.third-block a {
   display: inline-block;
   vertical-align: middle;
   margin-left: 115px;
@@ -316,37 +313,31 @@ h3 {
   opacity: 0.2;
 }
 
-.fourth-block a:first-child {
+.third-block a:first-child {
   margin-left: 14px;
 }
 
-.fourth-block a:hover,
-.fourth-block a:active {
+.third-block a:hover,
+.third-block a:active {
   opacity: 1.0;
 }
 
-.fifth-block {
+.map {
   position: relative;
   background: #ffffff url("../img/map.jpg") no-repeat center;
-  width: 1200px;
+  width: auto;
   height: 416px;
   margin-top: 39px;
 }
 
 .contacts {
   position: absolute;
-  left: 160px;
-  top: 90px;
+  top: 87px;
   width: 210px;
   padding: 26px 20px;
   background-color: #ffffff;
 }
 
-.point {
-  position: absolute;
-  right: 130px;
-  top: 110px;
-}
 
 .btn4 {
   display: inline-block;
